@@ -1,0 +1,17 @@
+dn: uid=cwalken,ou=People,dc=bizzaro,dc=com
+uid: cwalken
+cn: cwalken
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {crypt}$1$fIStFN.E$Vhe71xPbxqdBWKDb6KzpP0
+shadowLastChange: 15266
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/bash
+uidNumber: 500
+gidNumber: 500
+homeDirectory: /home/cwalken
+

@@ -1,0 +1,13 @@
+#ip,(p|rp),facility.level
+8.8.8.8,p,local4.info
+192.168.1.1,p,local4.info
+
+www.google.com,rp,local4.warning
+www.asdlkfjhler.com,rp,local4.info
+
+
+
+#Comment line
+161.210.253.38,p,local4.crit
+
+www.8bitb.com,rp,local4.alert

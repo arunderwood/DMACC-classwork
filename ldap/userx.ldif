@@ -1,0 +1,68 @@
+dn: uid=sbrown,ou=ldap_users,ou=Groups,dc=bizzaro,dc=com
+uid: sbrown
+objectclass: top
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+userPassword: {crypt}$1$fIStFN.E$Vhe71xPbxqdBWKDb6KzpP0
+cn: scott brown
+givenName: scott
+sn: brown
+mail: sbrown@bizzaro.com
+uidNumber: 504
+gidNumber: 503
+loginShell: /bin/bash
+homeDirectory: /home/sbrown 
+
+dn: uid=ksmith,ou=ldap_users,ou=Groups,dc=bizzaro,dc=com
+uid: ksmith
+objectclass: top
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+userPassword: {crypt}$1$fIStFN.E$Vhe71xPbxqdBWKDb6KzpP0
+cn: karla smith
+givenName: karla
+sn: smith
+mail: ssmith@bizzaro.com
+uidNumber: 505
+gidNumber: 503
+loginShell: /bin/bash
+homeDirectory: /home/ksmith 
+
+dn: uid=sgoodie,ou=ldap_users,ou=Groups,dc=bizzaro,dc=com
+uid: sgoodie
+objectclass: top
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+userPassword: {crypt}$1$fIStFN.E$Vhe71xPbxqdBWKDb6KzpP0
+cn: sam goodie
+givenName: sam
+sn: goodie
+mail: sgoodie@bizzaro.com
+uidNumber: 506
+gidNumber: 503
+loginShell: /bin/bash
+homeDirectory: /home/sgoodie 
+
+dn: uid=mjones,ou=ldap_users,ou=Groups,dc=bizzaro,dc=com
+uid: mjones
+objectclass: top
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+userPassword: {crypt}$1$fIStFN.E$Vhe71xPbxqdBWKDb6KzpP0
+cn: marge jones
+givenName: marge
+sn: jones
+mail: mjones@bizzaro.com
+uidNumber: 507
+gidNumber: 503
+loginShell: /bin/bash
+homeDirectory: /home/mjones 
+

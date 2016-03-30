@@ -1,0 +1,6 @@
+dn: cn=ldap_users,ou=Group,dc=bizzaro,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: ldap_users
+userPassword: {crypt}x
+gidNumber: 503

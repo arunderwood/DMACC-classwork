@@ -1,0 +1,14 @@
+dn: uid=bobb,ou=People,dc=bizzaro,dc=com
+changetype: modify
+uid: bobb
+cn: bobb
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword:: e2NyeXB0fSQ2JFIzeXBHWnJUJGhBOGlRQUhZL1Q1aDI5MDY3b245Ti9MR01Ia3l
+ kdGZLYnVFT2R2OEVOd1NqQVpDckJQMGoudWkudHZyTWlaNkgxNU9tMzI2bzk2U1lNUktnRFZWeVgv
+loginShell: /bin/bash
+uidNumber: 501
+gidNumber: 501
+homeDirectory: /home/bobb

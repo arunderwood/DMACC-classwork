@@ -1,0 +1,2 @@
+dn: uid=mjones,ou=People,dc=bizzaro,dc=com
+changetype: delete

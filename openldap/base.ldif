@@ -1,0 +1,23 @@
+dn: dc=bizzaro,dc=com
+dc: bizzaro
+objectClass: top
+objectClass: domain
+
+cn=Manager,dc=bizzaro,dc=com
+
+dn: ou=People,dc=bizzaro,dc=com
+ou: People
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Groups,dc=bizzaro,dc=com
+ou: Group
+objectClass: top
+objectClass: organizationalUnit
+
+dn: cn=ldap_users,ou=Groups,dc=bizzaro,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: ldap_users
+userPassword: {crypt}x
+gidNumber: 503

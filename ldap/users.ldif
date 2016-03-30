@@ -1,0 +1,17 @@
+dn: uid=andrewu,ou=People,dc=bizzaro,dc=com
+uid: andrewu
+cn: andrewu
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {crypt}$6$R3ypGZrT$hA8iQAHY/T5h29067on9N/LGMHkydtfKbuEOdv8ENwSjAZCrBP0j.ui.tvrMiZ6H15Om326o96SYMRKgDVVyX/
+shadowLastChange: 15266
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/bash
+uidNumber: 500
+gidNumber: 500
+homeDirectory: /home/andrewu
+

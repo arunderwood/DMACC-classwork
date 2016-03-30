@@ -1,0 +1,14 @@
+dn: cn=andrewu,ou=Groups,dc=bizzaro,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: andrewu
+userPassword: {crypt}x
+gidNumber: 500
+
+dn: cn=cgred,ou=Groups,dc=bizzaro,dc=com
+objectClass: posixGroup
+objectClass: top
+cn: cgred
+userPassword: {crypt}x
+gidNumber: 501
+

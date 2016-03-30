@@ -1,0 +1,4 @@
+dn: uid=cwalken,ou=People,dc=bizzaro,dc=com
+changetype: modify
+replace: uidNumber
+uidNumber: 505
